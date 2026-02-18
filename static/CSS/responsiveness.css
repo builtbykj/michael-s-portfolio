@@ -1,331 +1,70 @@
+
 @media only screen and (max-width: 1320px) {
-    header{
-        padding: 0 50px;
-    }
-    .b1a{
-        width: 50%;
-        height: 100%;
-      }
+  header{ padding: 0 50px; }
+  .b1a{ width: 60%; height: 100%; margin: 0 auto; }
 }
 
 @media only screen and (max-width: 1100px) {
-    header{
-        padding: 0 30px;
-    }
-    .b1a{
-        width: 70%;
-        height: 100%;
-      }
+  header{ padding: 0 30px; }
+  .b1a{ width: 80%; height: 100%; }
 }
 
 @media only screen and (max-width: 900px) {
-    .hamburger {
-        display: block;
-        cursor: pointer;
-    }
-    .hamburger .line {
-        width: 30px;
-        height: 4px;
-        background: #2c46ab  ;
-        margin: 6px 0;
-    }
+  .hamburger { display: block; cursor: pointer; }
 
-
-
-    .nav-bar{
-        height: 0px;
-        position: absolute;
-        top: 80px;
-        left: 0;
-        right: 0;
-        width: 100vw;
-        background: #2c46ab;
-        transition: 0.5s;
-        overflow: hidden;
-    }
-    .nav-bar.active{
-        height: 450px;
-    }
-    .nav-bar ul {
-        display: block;
-        width: fit-content;
-        margin: 80px auto 0 auto;
-        text-align: center;
-        transition: o.5s; 
-    }
-    .nav-bar.active ul{
-        opacity: 1;
-    }
-    .nav-bar ul li a{
-         margin-bottom: 12px ;
-        color: white;
-    }
-    .nav-bar ul li a:hover {
-        color: black;
-        border: 1px solid black;
-    }
-
-    .nav-bar ul li a.active{
-        color: black
-    }
-
-    .open.active{
-        display: none;
-        }
-    .close.active{
-            display: block;
-        }
-
-    .b1a{
-        width: 100%;
-        height: 100%;
-      }
-
-    .b2a{
-      width: 100%;
-    }
-    
-    .b2b{
-      width: 100%;
-    }
-
-    .b2{
-      flex-direction: column;    
-    }
-
-    .b2b-ai h4,
-    .b2b-aii h4{
-      font-size: 1.25rem;
-      font-weight: 700;
-    }
-  
-    .wb h2{
-      font-size: 1.25rem;
-    }
-    .wa h2,
-    .wc h2{
-      font-size: 1.25rem;
-    }
-  
-    .wb p{
-      font-size: 1rem;
-    }
-    .wa p,
-    .wc p{
-       font-size: 1rem;
-  
-    }
-
-    .work{
-      height: 100px;
-      margin-top: 3%;
-      display: flex;
-  
-    }
-
-    .pbl-0{
-      flex-direction: column;
-    }
-    .pbl-a{
-      width: 96%;
-      margin: 2%;
-    }
-
-    .pbl-b{
-      margin-right: 2%;
-    }
-
-    .pb{
-      flex-direction: column;
-    }
-    
-    .pb2{
-      height: auto;
-    }
-
-    .pbl{
-      height: auto;
-    }
-
-    
-    .s-b{
-      flex-direction: column;
-    }
-
-    .sub1{
-      flex-direction: column;
-      height: auto;
-    }
-
-    
-  .newsletter {
-    text-align: center;
-    flex-direction: column;
-
+  .nav-bar{
+    height: 0px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background: #12121a;
+    border-bottom: 1px solid #2a2a3a;
+    transition: 0.35s;
+    overflow: hidden;
   }
+  .nav-bar.active{ height: 420px; }
 
-  .sub1 h3,
-  .newsletter input{
-    text-align: center;
+  .nav-bar ul{
+    display:block;
+    width: fit-content;
+    margin: 60px auto 0 auto;
+    text-align:center;
   }
+  .nav-bar ul li a{
+    margin-bottom: 12px;
+    color: #e7e7f2;
+  }
+  .nav-bar ul li a:hover{
+    color:#6366f1;
+    border:1px solid #6366f1;
+  }
+  .nav-bar ul li a.active{ color:#6366f1; }
 
-  .sub{
-    height: 250px;
-  }
+  .b1a{ width: 100%; height: 100%; }
+  .b2{ flex-direction: column; }
+  .b2a, .b2b{ width: 100%; }
 
-  .f2-icon{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+  .work{ flex-direction: column; }
+  .wa, .wb, .wc{ width: 100%; }
 
-  .copy-tag {
-    padding-top: 10px;
-    text-align: right;
-  }
+  .pbl-0{ flex-direction: column; }
+  .pbl-a{ width: 100%; }
+  .pbl-b{ text-align: left; }
 
-  .footer-icon {
-    padding-top: 25px;
-    margin-right: -10px;
-  }
-
-  .footer {
-    background-color: #161513;
-    height: 250px;
-    color: #e6e3de;
-
-  }
-
-  .f1{
-    width: 80%;
-    margin-left: 10%;
-    padding-top: 40px;
-  }
-
-  .skillset {
-    display: flex;
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
-    justify-content: space-between; /* Distribute items evenly across the row */
-    max-width: 600px; /* Adjust this as needed */
-    margin: 0 auto; /* Center the skillset container */
-  }
-  
-  .ss-icons {
-    width: 23%; /* Adjust the width to fit four items in a row */
-    text-align: center;
-    margin-bottom: 20px; /* Add some space between rows */
-  }
-  
-  .ss-icons i {
-    font-size: 1.5rem;
-    color: #2c46ab;
-  }
-  
-  .ss-icons h1 {
-    font-size: 1.0rem;
-  }
-  
-  .b2b{
-    margin-top: 20px;
-  }
+  .t-grid{ grid-template-columns: 1fr; }
 }
 
+@media screen and (max-width: 720px) {
+  h1 { font-size: 2.0rem; }
+  h2 { font-size: 1.75rem; }
+  h3 { font-size: 1.35rem; }
+  .hero-sub{ font-size: 0.98rem; padding: 0 10px; }
+}
 
-
-@media screen and (max-width: 1000px) {
-    h1 {
-      font-size: 2.5rem;
-    }
-  
-    h2 {
-      font-size: 2rem;
-    }
-  
-    h3 {
-      font-size: 1.5rem;
-    }
-  
-    h4 {
-      font-size: 1.25rem;
-    }
-  
-    .profile-pic {
-      width: 30rem;
-    }
-  
-    .main-h1 {
-      margin: 0;
-    }
-  
-    .ston {
-      text-align: center;
-      display: inline;
-      padding: 0;
-      margin: 0;
-    }
-  
-    .inner-img1 {
-      right: -30rem;
-      top: -18rem;
-    }
-  }
-  
-  @media screen and (max-width: 720px) {
-    h1 {
-      font-size: 2rem;
-    }
-  
-    h2 {
-      font-size: 1.75rem;
-    }
-  
-    h3 {
-      font-size: 1.5rem;
-    }
-  
-    h4 {
-      font-size: 1rem;
-    }
-  
-    .profile-pic {
-      width: 34rem;
-    }
-  
-    .ston {
-      text-align: center;
-      display: inline;
-      padding: 0;
-      margin: 0;
-    }
-  
-    .demo22 {
-      padding-top: 1.5rem;
-    }
-  }
-  
-  @media screen and (max-width: 575px) {
-    h1 {
-      font-size: 1.5rem;
-    }
-  
-    .profile-pic {
-      display: none;
-    }
-  
-    .inner-img1 {
-      font-size: 20rem;
-      right: -12rem;
-      top: -2.5rem;
-    }
-  
-    .inner-img2 {
-      font-size: 20rem;
-      right: 12.5rem;
-      top: 0rem;
-    }
-  }
-  
-  .column a{
-  text-decoration: none;
-  color: black;
-  }
+@media screen and (max-width: 575px) {
+  h1 { font-size: 1.6rem; }
+  header{ padding: 0 16px; }
+  .projects, .testimonials{ width: 90vw; margin-left: 5vw; margin-right: 5vw; }
+}
